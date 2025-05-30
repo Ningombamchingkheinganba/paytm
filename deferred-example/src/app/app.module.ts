@@ -1,19 +1,15 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+// import { BrowserModule } from '@angular/platform-browser';
+// import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { StringifyJsonPipe } from './pipes/stringify-json.pipe';
-import { CheckoutModule } from 'paytm-blink-checkout-angular';
+// import { AppComponent } from './app.component';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    StringifyJsonPipe
-  ],
-  imports: [
-    BrowserModule,
-    CheckoutModule
-  ],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+// @NgModule({
+//   declarations: [
+//     AppComponent,  // Remove StringifyJsonPipe from here
+//   ],
+//   imports: [
+//     BrowserModule,
+//   ],
+//   bootstrap: [AppComponent]
+// })
+// export class AppModule { }

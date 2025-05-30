@@ -17,4 +17,7 @@
 
 <div><b>CHECKOUT VISIBILITY :</b> {{isCheckoutVisible}}</div>
 
-<paytm-checkout *ngIf="isCheckoutVisible"></paytm-checkout>
+<div *ngIf="isCheckoutVisible">
+  <p>Checkout component is now visible</p>
+  <paytm-checkout></paytm-checkout>
+</div>
